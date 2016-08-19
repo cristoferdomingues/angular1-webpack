@@ -1,0 +1,20 @@
+{
+  "name": "sansysSeed",
+  "version": "1.0.0",
+  "homepage": "https://github.com/cristoferdomingues/angular1-webpack",
+  "authors": [
+    "cristofer.domingues <cristofer.domingues@jtech.com>"
+  ],
+  "main": "./public/index.html",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

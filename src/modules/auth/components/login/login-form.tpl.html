@@ -1,5 +1,21 @@
-<form class="loginForm well form-inline">
-    <input type="text" ng-model="$ctrl.user.name" class="input-small" placeholder="Username">
-    <input type="password" ng-model="ctrl.user.senha" class="input-small" placeholder="Password">
-    <button ng-click="$ctrl.logar($ctrl.user)" class="btn btn-success">Login</button>
-</form>
+<div id="login" class="contexto-modulo">
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+            <div class="login-form card">
+                <form name="formLogin">
+                    <div class="form-group">
+                        <label for="">Login</label>
+                        <input type="text" ng-model="$ctrl.user.name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Senha</label>
+                        <input type="text" class="form-control" ng-model="ctrl.user.senha">
+                    </div>
+                    <button class="btn btn-primary" ng-click="$ctrl.logar($ctrl.user)" tooltip-placement="bottom" uib-tooltip="Click to Enter">Entrar</button>
+                    <button class="btn btn-default">Limpar</button>
+                    <a href="" class="reset-pass">Esqueci minha senha</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
